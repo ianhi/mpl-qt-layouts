@@ -4,9 +4,6 @@ except ImportError:
     __version__ = "unknown"
 __author__ = "Ian Hunt-Isaak"
 __email__ = "ianhuntisaak@gmail.com"
+from ._layouts import verticalSliders
 
-__all__ = [
-    "__version__",
-    "__author__",
-    "__email__",
-]
+__all__ = ["__version__", "__author__", "__email__", "verticalSliders"]
