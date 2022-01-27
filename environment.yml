@@ -1,0 +1,9 @@
+name: mpl-qt-layouts
+channels:
+  - defaults
+dependencies:
+  - pandoc
+  - pip
+  - python
+  - pip:
+      - -e .[dev]
